@@ -17,3 +17,5 @@ scoreboard objectives add max_hp dummy
 scoreboard objectives add now_hp dummy
 
 scoreboard objectives add hp dummy
+
+scoreboard objectives add player_count dummy
