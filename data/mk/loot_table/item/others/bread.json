@@ -44,7 +44,8 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "item_type": "others"
+                "item_type": "others",
+                "mk": 3
               }
             }
           ]

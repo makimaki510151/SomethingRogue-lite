@@ -135,7 +135,8 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "item_type": "weapon",
-                "already_granted": false
+                "already_granted": false,
+                "mk": 50
               }
             }
           ]

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/1/boss/bone_sword_box",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/1/boss/fang",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/1/boss/fur",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

@@ -11,3 +11,8 @@ scoreboard players set 200 const 200
 scoreboard players set 300 const 300
 
 scoreboard objectives add trigger trigger
+
+scoreboard objectives add max_hp dummy
+scoreboard objectives add now_hp dummy
+
+scoreboard objectives add hp dummy
