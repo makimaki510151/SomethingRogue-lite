@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "木の棒",
+                "type": "text",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "ただの木の棒\n",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "素手よりはまし\n\n",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "完成度\n",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "攻撃力",
+                      "type": "text",
+                      "color": "red"
+                    },
+                    {
+                      "text": "：",
+                      "color": "white"
+                    },
+                    {
+                      "nbt": "attack_damage_p",
+                      "storage": "mk:item",
+                      "source": "storage",
+                      "type": "nbt",
+                      "color": "white"
+                    },
+                    {
+                      "text": "%\n",
+                      "color": "white"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "攻撃速度",
+                      "type": "text",
+                      "color": "aqua"
+                    },
+                    {
+                      "text": "：",
+                      "color": "white"
+                    },
+                    {
+                      "nbt": "attack_speed_p",
+                      "storage": "mk:item",
+                      "source": "storage",
+                      "type": "nbt",
+                      "color": "white"
+                    },
+                    {
+                      "text": "%",
+                      "color": "white"
+                    }
+                  ]
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "minecraft:",
+                  "amount": {
+                    "type": "minecraft:storage",
+                    "storage": "mk:item",
+                    "path": "attack_damage"
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "minecraft:",
+                  "amount": {
+                    "type": "minecraft:storage",
+                    "storage": "mk:item",
+                    "path": "attack_speed"
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "item_type": "weapon",
+                "already_granted": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

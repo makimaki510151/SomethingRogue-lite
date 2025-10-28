@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "ショップ",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:emerald"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "購入したいものを選択してください"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "木の棒"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:shop/item/stick"
+      }
+    }
+  ]
+}
