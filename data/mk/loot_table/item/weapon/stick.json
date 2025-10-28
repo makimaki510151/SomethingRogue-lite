@@ -23,66 +23,83 @@
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
+                {
+                  "text": "ただの木の棒",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "素手よりはまし",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "完成度",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
                 [
                   {
-                    "text": "ただの木の棒\n",
+                    "text": "攻撃力",
+                    "type": "text",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "：",
+                    "type": "text",
                     "color": "white",
                     "italic": false
                   },
                   {
-                    "text": "素手よりはまし\n\n",
+                    "nbt": "attack_damage_p",
+                    "storage": "mk:item",
+                    "source": "storage",
+                    "type": "nbt",
                     "color": "white",
                     "italic": false
                   },
                   {
-                    "text": "完成度\n",
+                    "text": "%",
+                    "type": "text",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "攻撃速度",
+                    "type": "text",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "：",
+                    "type": "text",
                     "color": "white",
                     "italic": false
                   },
-                  [
-                    {
-                      "text": "攻撃力",
-                      "type": "text",
-                      "color": "red"
-                    },
-                    {
-                      "text": "：",
-                      "color": "white"
-                    },
-                    {
-                      "nbt": "attack_damage_p",
-                      "storage": "mk:item",
-                      "source": "storage",
-                      "type": "nbt",
-                      "color": "white"
-                    },
-                    {
-                      "text": "%\n",
-                      "color": "white"
-                    }
-                  ],
-                  [
-                    {
-                      "text": "攻撃速度",
-                      "type": "text",
-                      "color": "aqua"
-                    },
-                    {
-                      "text": "：",
-                      "color": "white"
-                    },
-                    {
-                      "nbt": "attack_speed_p",
-                      "storage": "mk:item",
-                      "source": "storage",
-                      "type": "nbt",
-                      "color": "white"
-                    },
-                    {
-                      "text": "%",
-                      "color": "white"
-                    }
-                  ]
+                  {
+                    "nbt": "attack_speed_p",
+                    "storage": "mk:item",
+                    "source": "storage",
+                    "type": "nbt",
+                    "interpret": false,
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "%",
+                    "type": "text",
+                    "color": "white",
+                    "italic": false
+                  }
                 ]
               ],
               "mode": "replace_all"

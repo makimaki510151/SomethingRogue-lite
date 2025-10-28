@@ -41,7 +41,7 @@
           "color": "white"
         },
         {
-          "text": "3~4"
+          "text": "3~5"
         }
       ]
     },
@@ -68,7 +68,7 @@
     "label": "購入する",
     "action": {
       "type": "minecraft:run_command",
-      "command": "/function mk:shop/item/stick/mk_check"
+      "command": "/trigger trigger set 101"
     }
   },
   "no": {
