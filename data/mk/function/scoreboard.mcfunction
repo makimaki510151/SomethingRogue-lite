@@ -1,4 +1,5 @@
 scoreboard objectives add system dummy
+scoreboard objectives add player_id dummy
 
 scoreboard objectives add mk dummy
 
