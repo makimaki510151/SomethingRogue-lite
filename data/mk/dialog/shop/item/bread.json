@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "購入画面",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:stick"
+      },
+      "show_decorations": true,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ただのパン\nお腹は満ちても体力は満ちない\n8個入"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": []
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "価格：",
+          "type": "text"
+        },
+        {
+          "text": "50mk",
+          "type": "text",
+          "color": "gold"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "購入する",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger trigger set 102"
+    }
+  },
+  "no": {
+    "label": "商品リストに戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "mk:shop/top"
+    }
+  }
+}
