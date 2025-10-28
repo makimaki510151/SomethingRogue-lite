@@ -27,6 +27,15 @@
         "type": "minecraft:show_dialog",
         "dialog": "mk:shop/item/stick"
       }
+    },
+    {
+      "label": {
+        "text": "パン×8"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:shop/item/bread"
+      }
     }
   ]
 }
