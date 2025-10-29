@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "購入失敗",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "素材が足りません…"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "戻る"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/top"
+      }
+    }
+  ]
+}

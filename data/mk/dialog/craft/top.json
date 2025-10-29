@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "ショップ",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:anvil"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "制作したいものを選択してください"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "守りの書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/range_0_1"
+      }
+    },
+    {
+      "label": {
+        "text": "腕伸ばしの書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/armor_1_2"
+      }
+    }
+  ]
+}

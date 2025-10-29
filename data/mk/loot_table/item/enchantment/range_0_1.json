@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "腕伸ばしの書・入門編",
+                "type": "text",
+                "color": "white",
+                "italic": true
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "リーチのエンチャント",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "ランクはかなり低い",
+                  "color": "white",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "能力幅",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "リーチ",
+                    "type": "text",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "：0～1",
+                    "type": "text",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "",
+                [
+                  {
+                    "text": "売値：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "10mk",
+                    "type": "text",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "付与コスト：10",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "mk": 10,
+                "item_type": "enchantment",
+                "cosat": 10,
+                "enchantment_id": "range_0_1"
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}

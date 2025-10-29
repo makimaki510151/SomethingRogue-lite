@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "購入画面",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book"
+      },
+      "show_decorations": true,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "防具値のエンチャント\nランクはかなり低い"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "能力幅\n",
+          "type": "text",
+          "color": "white"
+        },
+        {
+          "text": "防具値",
+          "type": "text",
+          "color": "green"
+        },
+        {
+          "text": "："
+        },
+        {
+          "text": "1～2",
+          "type": "text",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "素材\n"
+        },
+        {
+          "text": "ボアの毛皮×10\n"
+        },
+        {
+          "text": "ボスボアの毛皮×1"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "制作する",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger trigger set 201"
+    }
+  },
+  "no": {
+    "label": "制作リストに戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "mk:craft/top"
+    }
+  }
+}
