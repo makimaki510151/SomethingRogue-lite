@@ -162,7 +162,11 @@
                     "max": 15,
                     "now": 0
                   },
-                  "contents_list": []
+                  "contents_list": [
+                    "attack_damage",
+                    "attack_speed"
+                  ],
+                  "count": 2
                 }
               }
             }

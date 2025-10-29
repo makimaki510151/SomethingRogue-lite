@@ -71,6 +71,11 @@
                   "text": "付与コスト：10",
                   "color": "white",
                   "italic": false
+                },
+                {
+                  "text": "付与可能：武器",
+                  "color": "white",
+                  "italic": false
                 }
               ],
               "mode": "replace_all"
@@ -80,7 +85,8 @@
               "tag": {
                 "mk": 10,
                 "item_type": "enchantment",
-                "cosat": 10,
+                "enchantment_type":"weapon",
+                "cost": 10,
                 "enchantment_id": "range_0_1"
               }
             }

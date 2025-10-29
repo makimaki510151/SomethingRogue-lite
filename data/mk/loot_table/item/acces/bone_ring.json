@@ -46,7 +46,7 @@
                 },
                 [
                   {
-                    "text": "防御値",
+                    "text": "防御強度",
                     "type": "text",
                     "color": "green",
                     "italic": false
@@ -58,7 +58,7 @@
                     "italic": false
                   },
                   {
-                    "nbt": "armor_p",
+                    "nbt": "armor_toughness_p",
                     "storage": "mk:item",
                     "source": "storage",
                     "type": "nbt",
@@ -100,12 +100,12 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:armor",
+                  "attribute": "minecraft:armor_toughness",
                   "id": "minecraft:",
                   "amount": {
                     "type": "minecraft:storage",
                     "storage": "mk:item",
-                    "path": "armor"
+                    "path": "armor_toughness"
                   },
                   "operation": "add_value",
                   "slot": "offhand"
@@ -115,14 +115,17 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "item_type": "weapon",
+                "item_type": "acces",
                 "mk": 5,
                 "enchantment": {
                   "cost": {
                     "max": 10,
                     "now": 0
                   },
-                  "contents_list": []
+                  "contents_list": [
+                    "armor_toughness"
+                  ],
+                  "count": 1
                 }
               }
             }

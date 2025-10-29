@@ -19,3 +19,7 @@ scoreboard objectives add now_hp dummy
 scoreboard objectives add hp dummy
 
 scoreboard objectives add player_count dummy
+scoreboard objectives add enemy_count dummy
+
+scoreboard objectives add mining dummy
+scoreboard objectives add mining_count dummy

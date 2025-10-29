@@ -71,8 +71,8 @@
                             "function": "minecraft:set_custom_data",
                             "tag": {
                                 "mk": 5,
-                                "item_type": "acces_box",
-                                "weapon_id": "stage_1_zako_1",
+                                "item_type": "box",
+                                "box_id": "stage_1_zako_1",
                                 "open": 20
                             }
                         }

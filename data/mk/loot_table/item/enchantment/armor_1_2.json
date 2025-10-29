@@ -71,6 +71,11 @@
                   "text": "付与コスト：10",
                   "color": "white",
                   "italic": false
+                },
+                {
+                  "text": "付与可能：アクセ",
+                  "color": "white",
+                  "italic": false
                 }
               ],
               "mode": "replace_all"
@@ -80,7 +85,8 @@
               "tag": {
                 "mk": 10,
                 "item_type": "enchantment",
-                "cosat": 10,
+                "enchantment_type":"acces",
+                "cost": 10,
                 "enchantment_id": "armor_1_2"
               }
             }

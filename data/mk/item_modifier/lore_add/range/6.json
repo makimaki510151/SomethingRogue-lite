@@ -1,0 +1,71 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "リーチ",
+          "type": "text",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "：",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "range_p",
+          "storage": "mk:enchantment",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 6,
+    "size": 1,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "enchantment": {
+        "contents_list": [
+          "\"range\""
+        ]
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "minecraft:",
+        "amount": {
+          "type": "minecraft:storage",
+          "storage": "mk:enchantment",
+          "path": "range"
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": false
+  }
+]

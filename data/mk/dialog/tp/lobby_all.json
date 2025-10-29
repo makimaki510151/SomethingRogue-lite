@@ -16,7 +16,8 @@
     }
   ],
   "inputs": [],
-  "after_action": "none",
+  "can_close_with_escape": true,
+  "after_action": "close",
   "actions": [
     {
       "label": "始まりの平原(笑)",

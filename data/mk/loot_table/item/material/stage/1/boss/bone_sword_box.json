@@ -71,8 +71,8 @@
                             "function": "minecraft:set_custom_data",
                             "tag": {
                                 "mk": 70,
-                                "item_type": "weapon_box",
-                                "weapon_id": "stage_1_boss_1",
+                                "item_type": "box",
+                                "box_id": "stage_1_boss_1",
                                 "open": 200
                             }
                         }

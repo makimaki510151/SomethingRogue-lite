@@ -7,17 +7,17 @@
         {
           "type": "minecraft:loot_table",
           "value": "mk:item/material/stage/1/zako/bone_ring_box",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mk:item/material/stage/1/zako/fang",
           "weight": 25
         },
         {
           "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/1/zako/fang",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "mk:item/material/stage/1/zako/fur",
-          "weight": 70
+          "weight": 45
         }
       ]
     }
