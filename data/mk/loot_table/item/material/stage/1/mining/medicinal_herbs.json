@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:azure_bluet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "薬草",
+                                "type": "text",
+                                "color": "white",
+                                "italic": true
+                            },
+                            "conditions": []
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "回復剤の素材になる",
+                                    "type": "text",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "そのままでは無理",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": ""
+                                },
+                                [
+                                    {
+                                        "text": "売値：",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "1mk",
+                                        "type": "text",
+                                        "color": "gold"
+                                    }
+                                ]
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "mk": 1,
+                                "material_id": "stage_1_mining_1",
+                                "item_type": "material"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [],
+            "conditions": []
+        }
+    ],
+    "functions": []
+}

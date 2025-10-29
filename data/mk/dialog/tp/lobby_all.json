@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "ステージテレポート",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:end_portal_frame"
+      },
+      "show_decorations": false,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "行きたい場所を選ぶのじゃ"
+    }
+  ],
+  "inputs": [],
+  "after_action": "none",
+  "actions": [
+    {
+      "label": "始まりの平原(笑)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger trigger set 1001"
+      }
+    }
+  ]
+}

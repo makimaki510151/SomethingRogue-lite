@@ -36,6 +36,15 @@
         "type": "minecraft:show_dialog",
         "dialog": "mk:craft/item/armor_1_2"
       }
+    },
+    {
+      "label": {
+        "text": "回復剤×5"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/healing_nugget"
+      }
     }
   ]
 }
