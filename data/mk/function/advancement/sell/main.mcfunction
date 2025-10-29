@@ -1,4 +1,4 @@
 
-function mk:advancement/sell/main
+function mk:sell/main
 
 advancement revoke @s only mk:sell/main
