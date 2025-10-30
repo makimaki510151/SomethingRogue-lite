@@ -15,7 +15,7 @@
                                 "text": "ボスボアの牙",
                                 "type": "text",
                                 "color": "white",
-                                "italic": true
+                                "italic": false
                             },
                             "conditions": []
                         },

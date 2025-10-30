@@ -35,18 +35,17 @@
         "text": ""
       }
     ],
-    "mode": "replace_section",
-    "offset": 6,
-    "size": 1,
+    "mode": "insert",
+    "offset": 7,
     "conditions": []
   },
   {
     "function": "minecraft:set_custom_data",
     "tag": {
       "enchantment": {
-        "contents_list": [
-          "\"range\""
-        ]
+        "contents_list": {
+          "range": true
+        }
       }
     },
     "conditions": []

@@ -122,10 +122,17 @@
                     "max": 10,
                     "now": 0
                   },
-                  "contents_list": [
-                    "armor_toughness"
-                  ],
-                  "count": 1
+                  "count": 1,
+                  "contents_list": {
+                    "armor": false,
+                    "armor_toughness": true,
+                    "max_health": false,
+                    "knockback_resistance": false,
+                    "movement_speed": false,
+                    "attack_damage": false,
+                    "attack_speed": false,
+                    "mining_efficiency": false
+                  }
                 }
               }
             }

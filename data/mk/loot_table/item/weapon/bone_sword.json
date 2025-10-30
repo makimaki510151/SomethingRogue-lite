@@ -162,11 +162,16 @@
                     "max": 15,
                     "now": 0
                   },
-                  "contents_list": [
-                    "attack_damage",
-                    "attack_speed"
-                  ],
-                  "count": 2
+                  "count": 2,
+                  "contents_list": {
+                    "attack_damage": true,
+                    "attack_speed": true,
+                    "gravity": false,
+                    "entity_interaction_range": false,
+                    "fall_damage_multiplier": false,
+                    "luck": false,
+                    "sneaking_speed": false
+                  }
                 }
               }
             }

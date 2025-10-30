@@ -6,7 +6,4 @@ scoreboard players operation range_p system = range system
 execute store result storage mk:enchantment range float 0.01 run scoreboard players get range system
 execute store result storage mk:enchantment range_p int 1 run scoreboard players get range_p system
 
-execute store result score temp1 system run data get entity @s SelectedItem.components."minecraft:custom_data".enchantment.count 1
-scoreboard players add temp1 system 4
-
-execute if score temp1 system matches 6 run item modify entity @s weapon.mainhand mk:lore_add/range/6
+item modify entity @s weapon.mainhand mk:lore_add/range

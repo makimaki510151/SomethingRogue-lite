@@ -35,18 +35,17 @@
         "text": ""
       }
     ],
-    "mode": "replace_section",
+    "mode": "insert",
     "offset": 5,
-    "size": 1,
     "conditions": []
   },
   {
     "function": "minecraft:set_custom_data",
     "tag": {
       "enchantment": {
-        "contents_list": [
-          "\"armor\""
-        ]
+        "contents_list": {
+          "armor": true
+        }
       }
     },
     "conditions": []
@@ -63,7 +62,7 @@
           "path": "armor"
         },
         "operation": "add_value",
-        "slot": "mainhand"
+        "slot": "offhand"
       }
     ],
     "replace": false
