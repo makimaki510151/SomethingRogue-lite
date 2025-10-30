@@ -4,6 +4,8 @@ gamemode adventure @s
 
 scoreboard players set @s mk 200
 spawnpoint @s 8 -58 8
+tp @s 8 -58 8
+
 
 attribute @s attack_speed base set 0
 attribute @s attack_damage base set 0
