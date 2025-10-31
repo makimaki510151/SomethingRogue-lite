@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "ストーンリングの封箱",
+                "type": "text",
+                "color": "white",
+                "italic": false
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装備：ストーンリングが収められている箱",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "職人のみが開けることができる",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                [
+                  {
+                    "text": "売値：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "10mk",
+                    "type": "text",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": ""
+                },
+                [
+                  {
+                    "text": "開封：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "60mk",
+                    "type": "text",
+                    "color": "gold"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "mk": 10,
+                "item_type": "box",
+                "box_id": "stage_1_zako_1",
+                "open": 60
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}
