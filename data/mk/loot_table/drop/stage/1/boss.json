@@ -2,12 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:score",
-        "target": "this",
-        "score": "player_count",
-        "scale": 1.5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
