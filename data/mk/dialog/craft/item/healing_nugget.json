@@ -29,7 +29,7 @@
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
-  "after_action": "close",
+  "after_action": "none",
   "yes": {
     "label": "制作する",
     "action": {

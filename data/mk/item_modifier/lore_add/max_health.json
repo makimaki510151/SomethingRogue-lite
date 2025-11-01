@@ -1,0 +1,70 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "増加体力",
+          "type": "text",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "：",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "max_health_p",
+          "storage": "mk:enchantment",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      }
+    ],
+    "mode": "insert",
+    "offset": 5,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "enchantment": {
+        "contents_list": {
+          "max_health": true
+        }
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "minecraft:",
+        "amount": {
+          "type": "minecraft:storage",
+          "storage": "mk:enchantment",
+          "path": "max_health"
+        },
+        "operation": "add_value",
+        "slot": "offhand"
+      }
+    ],
+    "replace": false
+  }
+]

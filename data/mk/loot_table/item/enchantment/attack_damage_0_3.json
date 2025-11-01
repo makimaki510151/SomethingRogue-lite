@@ -68,11 +68,6 @@
                   }
                 ],
                 {
-                  "text": "付与コスト：●",
-                  "color": "white",
-                  "italic": false
-                },
-                {
                   "text": "付与可能：アクセ",
                   "color": "white",
                   "italic": false
@@ -86,7 +81,6 @@
                 "mk": 20,
                 "item_type": "enchantment",
                 "enchantment_type":"acces",
-                "cost": 1,
                 "enchantment_id": "attack_damage_0_3"
               }
             }

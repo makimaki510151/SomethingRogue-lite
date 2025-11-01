@@ -18,14 +18,6 @@
                   "text": "木の棒",
                   "type": "text",
                   "italic": false
-                },
-                {
-                  "nbt": "cost",
-                  "storage": "mk:item",
-                  "source": "storage",
-                  "type": "nbt",
-                  "color": "white",
-                  "italic": false
                 }
               ]
             },
@@ -160,13 +152,9 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "item_type": "weapon",
+                "unique_id":"stick",
                 "mk": 50,
                 "enchantment": {
-                  "cost": {
-                    "max": 2,
-                    "now": 0
-                  },
-                  "count": 2,
                   "contents_list": {
                     "attack_damage": true,
                     "attack_speed": true,

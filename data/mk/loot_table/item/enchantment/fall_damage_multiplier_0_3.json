@@ -68,11 +68,6 @@
                   }
                 ],
                 {
-                  "text": "付与コスト：●",
-                  "color": "white",
-                  "italic": false
-                },
-                {
                   "text": "付与可能：武器",
                   "color": "white",
                   "italic": false
@@ -86,7 +81,6 @@
                 "mk": 20,
                 "item_type": "enchantment",
                 "enchantment_type": "weapon",
-                "cost": 1,
                 "enchantment_id": "gravity_0_0.1"
               }
             }

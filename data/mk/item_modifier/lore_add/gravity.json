@@ -1,0 +1,70 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "重力",
+          "type": "text",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "：",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "gravity_p",
+          "storage": "mk:enchantment",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      }
+    ],
+    "mode": "insert",
+    "offset": 5,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "enchantment": {
+        "contents_list": {
+          "gravity": true
+        }
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:gravity",
+        "id": "minecraft:",
+        "amount": {
+          "type": "minecraft:storage",
+          "storage": "mk:enchantment",
+          "path": "gravity"
+        },
+        "operation": "add_value",
+        "slot": "offhand"
+      }
+    ],
+    "replace": false
+  }
+]

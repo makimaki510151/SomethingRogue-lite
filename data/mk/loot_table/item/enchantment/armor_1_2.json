@@ -68,11 +68,6 @@
                   }
                 ],
                 {
-                  "text": "付与コスト：●",
-                  "color": "white",
-                  "italic": false
-                },
-                {
                   "text": "付与可能：アクセ",
                   "color": "white",
                   "italic": false
@@ -86,7 +81,6 @@
                 "mk": 10,
                 "item_type": "enchantment",
                 "enchantment_type":"acces",
-                "cost": 1,
                 "enchantment_id": "armor_1_2"
               }
             }

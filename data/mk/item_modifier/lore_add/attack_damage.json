@@ -1,0 +1,70 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "攻撃力",
+          "type": "text",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "：",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "fall_damage_multiplier_p",
+          "storage": "mk:enchantment",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      }
+    ],
+    "mode": "insert",
+    "offset": 5,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "enchantment": {
+        "contents_list": {
+          "attack_damage": true
+        }
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "minecraft:",
+        "amount": {
+          "type": "minecraft:storage",
+          "storage": "mk:enchantment",
+          "path": "attack_damage"
+        },
+        "operation": "add_value",
+        "slot": "offhand"
+      }
+    ],
+    "replace": false
+  }
+]

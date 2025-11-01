@@ -18,14 +18,6 @@
                   "text": "骨輪",
                   "type": "text",
                   "italic": false
-                },
-                {
-                  "nbt": "cost",
-                  "storage": "mk:item",
-                  "source": "storage",
-                  "type": "nbt",
-                  "color": "white",
-                  "italic": false
                 }
               ]
             },
@@ -122,11 +114,6 @@
                 "item_type": "acces",
                 "mk": 5,
                 "enchantment": {
-                  "cost": {
-                    "max": 10,
-                    "now": 0
-                  },
-                  "count": 1,
                   "contents_list": {
                     "armor": false,
                     "armor_toughness": true,
