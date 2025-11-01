@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/zako2/vine_ring_box",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/zako2/vine_fragment",
+          "weight": 85
+        }
+      ]
+    }
+  ]
+}

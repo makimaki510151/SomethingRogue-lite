@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/boss/kuroiwa_core_box",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/boss/rare_mineral_fragments",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/boss/black_stone",
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

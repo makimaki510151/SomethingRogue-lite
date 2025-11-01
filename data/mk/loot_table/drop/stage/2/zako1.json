@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/zako1/stone_ring_box",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mk:item/material/stage/2/zako1/broken_rock",
+          "weight": 85
+        }
+      ]
+    }
+  ]
+}

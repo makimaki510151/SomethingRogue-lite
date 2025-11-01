@@ -13,11 +13,21 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": {
-                "text": "骨剣",
-                "type": "text",
-                "italic": false
-              }
+              "name": [
+                {
+                  "text": "骨剣",
+                  "type": "text",
+                  "italic": false
+                },
+                {
+                  "nbt": "cost",
+                  "storage": "mk:item",
+                  "source": "storage",
+                  "type": "nbt",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
             },
             {
               "function": "minecraft:set_lore",
@@ -115,13 +125,7 @@
                     "color": "gold",
                     "italic": false
                   }
-                ],
-                {
-                  "text": "付与コスト容量：15",
-                  "type": "text",
-                  "color": "white",
-                  "italic": false
-                }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -159,7 +163,7 @@
                 "mk": 50,
                 "enchantment": {
                   "cost": {
-                    "max": 15,
+                    "max": 3,
                     "now": 0
                   },
                   "count": 2,

@@ -6,16 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "chest",
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "守りの書・入門編",
+                "text": "黒岩核の封箱",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },
@@ -24,37 +24,19 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "防具値のエンチャント",
+                  "text": "武器：黒岩核が収められている箱",
                   "type": "text",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "text": "ランクはかなり低い",
+                  "text": "職人のみが開けることができる",
                   "color": "white",
                   "italic": false
                 },
-                "",
                 {
-                  "text": "能力幅",
-                  "color": "white",
-                  "italic": false
+                  "text": ""
                 },
-                [
-                  {
-                    "text": "防具値",
-                    "type": "text",
-                    "color": "green",
-                    "italic": false
-                  },
-                  {
-                    "text": "：1～2",
-                    "type": "text",
-                    "color": "white",
-                    "italic": false
-                  }
-                ],
-                "",
                 [
                   {
                     "text": "売値：",
@@ -62,32 +44,36 @@
                     "italic": false
                   },
                   {
-                    "text": "10mk",
+                    "text": "100mk",
                     "type": "text",
                     "color": "gold"
                   }
                 ],
                 {
-                  "text": "付与コスト：●",
-                  "color": "white",
-                  "italic": false
+                  "text": ""
                 },
-                {
-                  "text": "付与可能：アクセ",
-                  "color": "white",
-                  "italic": false
-                }
+                [
+                  {
+                    "text": "開封：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "400mk",
+                    "type": "text",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "mk": 10,
-                "item_type": "enchantment",
-                "enchantment_type":"acces",
-                "cost": 1,
-                "enchantment_id": "armor_1_2"
+                "mk": 100,
+                "item_type": "box",
+                "box_id": "stage_2_boss_1",
+                "open": 400
               }
             }
           ]

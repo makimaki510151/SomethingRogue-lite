@@ -68,7 +68,7 @@
                   }
                 ],
                 {
-                  "text": "付与コスト：10",
+                  "text": "付与コスト：●",
                   "color": "white",
                   "italic": false
                 },
@@ -86,7 +86,7 @@
                 "mk": 10,
                 "item_type": "enchantment",
                 "enchantment_type":"weapon",
-                "cost": 10,
+                "cost": 1,
                 "enchantment_id": "range_0_1"
               }
             }

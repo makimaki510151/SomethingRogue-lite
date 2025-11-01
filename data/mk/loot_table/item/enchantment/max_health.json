@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "守りの書・入門編",
+                "text": "増加体力の書・入門編",
                 "type": "text",
                 "color": "white",
                 "italic": true
@@ -24,13 +24,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "防具値のエンチャント",
+                  "text": "増加体力のエンチャント",
                   "type": "text",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "text": "ランクはかなり低い",
+                  "text": "能力幅の抑え目",
                   "color": "white",
                   "italic": false
                 },
@@ -42,13 +42,13 @@
                 },
                 [
                   {
-                    "text": "防具値",
+                    "text": "増加体力",
                     "type": "text",
-                    "color": "green",
+                    "color": "dark_red",
                     "italic": false
                   },
                   {
-                    "text": "：1～2",
+                    "text": "：1～3",
                     "type": "text",
                     "color": "white",
                     "italic": false
@@ -62,7 +62,7 @@
                     "italic": false
                   },
                   {
-                    "text": "10mk",
+                    "text": "20mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -83,11 +83,11 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "mk": 10,
+                "mk": 20,
                 "item_type": "enchantment",
-                "enchantment_type":"acces",
+                "enchantment_type": "acces",
                 "cost": 1,
-                "enchantment_id": "armor_1_2"
+                "enchantment_id": "max_health_1_3"
               }
             }
           ]
