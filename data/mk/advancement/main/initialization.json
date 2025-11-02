@@ -6,8 +6,8 @@
     "title": "§l冒険の始まり",
     "description": "ハクスラ的な何か",
     "background": "minecraft:block/copper_block",
-    "show_toast": false,
-    "announce_to_chat": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": false
   },
 	"criteria": {
