@@ -7,12 +7,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "mk:item/material/stage/1/boss/bone_sword_box",
-          "weight": 25
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "mk:item/material/stage/1/boss/fang",
-          "weight": 35
+          "weight": 45
         },
         {
           "type": "minecraft:loot_table",
