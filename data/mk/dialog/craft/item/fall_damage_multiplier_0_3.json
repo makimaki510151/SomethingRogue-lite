@@ -12,7 +12,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "落下ダメージ倍率のエンチャント\nランクはかなり低い"
+      "contents": "クリティカル率のエンチャント\nランクはかなり低い"
     },
     {
       "type": "minecraft:plain_message",
@@ -23,9 +23,9 @@
           "color": "white"
         },
         {
-          "text": "落下ダメージ倍率",
+          "text": "クリティカル率",
           "type": "text",
-          "color": "dark_red"
+          "color": "yellow"
         },
         {
           "text": "："

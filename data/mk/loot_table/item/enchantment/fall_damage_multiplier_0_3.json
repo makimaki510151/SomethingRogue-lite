@@ -24,13 +24,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "落下ダメージ倍率増加のエンチャント",
+                  "text": "クリティカル率のエンチャント",
                   "type": "text",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "text": "プレイヤーは1がデフォルト",
+                  "text": "プレイヤーは1%がデフォルト",
                   "color": "white",
                   "italic": false
                 },
@@ -42,9 +42,9 @@
                 },
                 [
                   {
-                    "text": "落下ダメージ倍率",
+                    "text": "クリティカル率",
                     "type": "text",
-                    "color": "dark_red",
+                    "color": "yellow",
                     "italic": false
                   },
                   {

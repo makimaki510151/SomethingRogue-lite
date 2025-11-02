@@ -54,8 +54,21 @@
                     "italic": false
                   },
                   {
-                    "text": "：",
+                    "text": "：+",
                     "type": "text",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "storage": "mk:item",
+                    "nbt": "armor_toughness_t",
+                    "source": "storage",
+                    "type": "nbt",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": " (",
                     "color": "white",
                     "italic": false
                   },
@@ -68,7 +81,7 @@
                     "italic": false
                   },
                   {
-                    "text": "%",
+                    "text": "%)",
                     "type": "text",
                     "color": "white",
                     "italic": false
@@ -124,6 +137,17 @@
                     "attack_speed": false,
                     "mining_efficiency": false
                   }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false,
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
                 }
               }
             }
