@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "購入画面",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:glow_ink_sac"
+      },
+      "show_decorations": true,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "飲むと回復する\n回復量は剤と変わらんけど早く摂取できる"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "素材\n"
+        },
+        {
+          "text": "癒し液×5"
+        },
+        {
+          "text": "薬草×1"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "制作する",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger trigger set 208"
+    }
+  },
+  "no": {
+    "label": "制作リストに戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "mk:craft/top"
+    }
+  }
+}

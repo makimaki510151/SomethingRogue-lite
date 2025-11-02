@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "重力増加の書・入門編",
+                "text": "ダル重の書・入門編",
                 "type": "text",
                 "color": "white",
                 "italic": true

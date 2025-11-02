@@ -39,11 +39,56 @@
     },
     {
       "label": {
+        "text": "攻撃的な書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/attack_damage_0_3"
+      }
+    },
+    {
+      "label": {
+        "text": "叩き付けの書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/fall_damage_multiplier_0_3"
+      }
+    },
+    {
+      "label": {
+        "text": "ダル重の書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/gravity_0_0.1"
+      }
+    },
+    {
+      "label": {
+        "text": "元気もりもりの書・入門編"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/max_health_1_3"
+      }
+    },
+    {
+      "label": {
         "text": "回復剤×5"
       },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "mk:craft/item/healing_nugget"
+      }
+    },
+    {
+      "label": {
+        "text": "回復液×5"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/healing_liquid"
       }
     }
   ]

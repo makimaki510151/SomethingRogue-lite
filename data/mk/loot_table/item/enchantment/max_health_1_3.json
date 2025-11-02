@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "増加体力の書・入門編",
+                "text": "元気もりもりの書・入門編",
                 "type": "text",
                 "color": "white",
                 "italic": true

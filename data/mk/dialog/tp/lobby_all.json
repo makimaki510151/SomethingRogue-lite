@@ -20,10 +20,17 @@
   "after_action": "close",
   "actions": [
     {
-      "label": "始まりの平原(笑)",
+      "label": "始まりの平原",
       "action": {
         "type": "minecraft:run_command",
         "command": "/trigger trigger set 1001"
+      }
+    },
+    {
+      "label": "化け物の出る洞くつ",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger trigger set 1002"
       }
     }
   ]

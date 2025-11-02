@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "落下ダメージ倍率増加の書・入門編",
+                "text": "叩き付けの書・入門編",
                 "type": "text",
                 "color": "white",
                 "italic": true
