@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:porkchop"
+      "id": "minecraft:porkchop"
     },
     "title": "大猪の討伐",
-    "description": "始まりの平原",
+    "description": "始まりの平原の\nボスを倒した。",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
