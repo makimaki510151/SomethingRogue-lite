@@ -3,8 +3,8 @@ scoreboard players operation @s player_id = end_value player_id
 gamemode adventure @s
 
 scoreboard players set @s mk 200
-spawnpoint @s 8 -58 8
-tp @s 8 -58 8
+spawnpoint @s 26 -45 -73 180 0
+tp @s 26.5 -45 -72.5 180 0
 
 
 attribute @s attack_speed base set 0

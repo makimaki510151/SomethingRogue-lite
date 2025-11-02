@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"stage_2\",\"mining\",\"1\",\"in\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "click"
+    ]
+  ],
+  "rewards": {
+    "function": "mk:advancement/mining/stage/2_1"
+  }
+}
