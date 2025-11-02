@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "stick",
+          "name": "minecraft:ink_sac",
           "conditions": [],
           "functions": [
             {
@@ -15,7 +15,7 @@
               "entity": "this",
               "name": [
                 {
-                  "text": "木の棒",
+                  "text": "ストーンリング",
                   "type": "text",
                   "italic": false
                 }
@@ -26,13 +26,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "ただの木の棒",
+                  "text": "石でできた指輪",
                   "type": "text",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "text": "素手よりはまし",
+                  "text": "意外となめらかで痛くない",
                   "type": "text",
                   "color": "white",
                   "italic": false
@@ -48,9 +48,9 @@
                 },
                 [
                   {
-                    "text": "攻撃力",
+                    "text": "防御値",
                     "type": "text",
-                    "color": "red",
+                    "color": "green",
                     "italic": false
                   },
                   {
@@ -60,39 +60,10 @@
                     "italic": false
                   },
                   {
-                    "nbt": "attack_damage_p",
+                    "nbt": "armor_p",
                     "storage": "mk:item",
                     "source": "storage",
                     "type": "nbt",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "text": "%",
-                    "type": "text",
-                    "color": "white",
-                    "italic": false
-                  }
-                ],
-                [
-                  {
-                    "text": "攻撃速度",
-                    "type": "text",
-                    "color": "aqua",
-                    "italic": false
-                  },
-                  {
-                    "text": "：",
-                    "type": "text",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "nbt": "attack_speed_p",
-                    "storage": "mk:item",
-                    "source": "storage",
-                    "type": "nbt",
-                    "interpret": false,
                     "color": "white",
                     "italic": false
                   },
@@ -112,7 +83,7 @@
                     "italic": false
                   },
                   {
-                    "text": "50mk",
+                    "text": "10mk",
                     "type": "text",
                     "color": "gold",
                     "italic": false
@@ -125,43 +96,33 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:attack_damage",
+                  "attribute": "minecraft:armor",
                   "id": "minecraft:",
                   "amount": {
                     "type": "minecraft:storage",
                     "storage": "mk:item",
-                    "path": "attack_damage"
+                    "path": "armor"
                   },
                   "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "attribute": "minecraft:attack_speed",
-                  "id": "minecraft:",
-                  "amount": {
-                    "type": "minecraft:storage",
-                    "storage": "mk:item",
-                    "path": "attack_speed"
-                  },
-                  "operation": "add_value",
-                  "slot": "mainhand"
+                  "slot": "offhand"
                 }
               ]
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "item_type": "weapon",
-                "mk": 50,
+                "item_type": "acces",
+                "mk": 10,
                 "enchantment": {
                   "contents_list": {
-                    "attack_damage": true,
-                    "attack_speed": true,
-                    "gravity": false,
-                    "entity_interaction_range": false,
-                    "fall_damage_multiplier": false,
-                    "luck": false,
-                    "sneaking_speed": false
+                    "armor": true,
+                    "armor_toughness": false,
+                    "max_health": false,
+                    "knockback_resistance": false,
+                    "movement_speed": false,
+                    "attack_damage": false,
+                    "attack_speed": false,
+                    "mining_efficiency": false
                   }
                 }
               }

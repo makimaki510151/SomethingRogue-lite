@@ -6,11 +6,15 @@ scoreboard objectives add mk dummy
 scoreboard objectives add const dummy
 scoreboard players set 2 const 2
 scoreboard players set 3 const 3
+scoreboard players set 10 const 10
 scoreboard players set 30 const 30
+scoreboard players set 50 const 50
 scoreboard players set 100 const 100
 scoreboard players set 150 const 150
 scoreboard players set 200 const 200
 scoreboard players set 300 const 300
+scoreboard players set 700 const 700
+
 
 scoreboard objectives add trigger trigger
 

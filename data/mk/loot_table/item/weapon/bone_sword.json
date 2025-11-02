@@ -152,7 +152,6 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "item_type": "weapon",
-                "unique_id":"bone_sword",
                 "mk": 50,
                 "enchantment": {
                   "contents_list": {

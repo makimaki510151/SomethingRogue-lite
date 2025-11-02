@@ -7,6 +7,9 @@ scoreboard players operation @s mk -= temp1 system
 
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{"box_id":"stage_1_zako_1"} run function mk:open/item/bone_ring
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{"box_id":"stage_1_boss_1"} run function mk:open/item/bone_sword
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{"box_id":"stage_2_zako1_1"} run function mk:open/item/stone_ring
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{"box_id":"stage_2_zako2_1"} run function mk:open/item/vine_ring
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{"box_id":"stage_2_boss_1"} run function mk:open/item/kuroiwa_core
 
 
 execute store result score temp1 system run data get entity @s SelectedItem.count 1
