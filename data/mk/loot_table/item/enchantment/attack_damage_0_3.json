@@ -15,7 +15,7 @@
                 "text": "攻撃的な書・入門編",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },

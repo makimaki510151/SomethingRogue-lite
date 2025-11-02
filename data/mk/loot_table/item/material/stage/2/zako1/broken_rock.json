@@ -15,7 +15,7 @@
                 "text": "砕けた岩",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },

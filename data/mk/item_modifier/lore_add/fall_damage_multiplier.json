@@ -30,13 +30,10 @@
           "color": "white",
           "italic": false
         }
-      ],
-      {
-        "text": ""
-      }
+      ]
     ],
     "mode": "insert",
-    "offset": 5,
+    "offset": 6,
     "conditions": []
   },
   {
@@ -62,7 +59,7 @@
           "path": "fall_damage_multiplier"
         },
         "operation": "add_value",
-        "slot": "offhand"
+        "slot": "mainhand"
       }
     ],
     "replace": false

@@ -15,7 +15,7 @@
                 "text": "叩き付けの書・入門編",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },
@@ -81,7 +81,7 @@
                 "mk": 20,
                 "item_type": "enchantment",
                 "enchantment_type": "weapon",
-                "enchantment_id": "gravity_0_0.1"
+                "enchantment_id": "fall_damage_multiplier_0_3"
               }
             }
           ]

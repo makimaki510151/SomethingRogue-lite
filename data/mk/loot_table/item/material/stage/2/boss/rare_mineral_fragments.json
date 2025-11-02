@@ -15,7 +15,7 @@
                 "text": "希少金属の破片",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },

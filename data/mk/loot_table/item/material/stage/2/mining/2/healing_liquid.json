@@ -15,7 +15,7 @@
                 "text": "癒し液",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },

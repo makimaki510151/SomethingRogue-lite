@@ -15,7 +15,7 @@
                 "text": "蔓の断片",
                 "type": "text",
                 "color": "white",
-                "italic": true
+                "italic": false
               },
               "conditions": []
             },
