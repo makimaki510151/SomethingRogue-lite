@@ -4,21 +4,15 @@
       "id": "minecraft:porkchop"
     },
     "title": "大猪の討伐",
-    "description": "始まりの平原の\nボスを倒した。",
+    "description": "始まりの平原の/nボスを倒した。",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mk:main/initialization",
   "criteria": {
-    "boss": {
-      "trigger": "minecraft:entity_killed_player",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:pig",
-          "nbt": "{Tags:[\"boss\",\"stage_1\",\"enemy\"]}"
-        }
-      }
+    "dummy": {
+      "trigger": "minecraft:impossible"
     }
   }
 }
