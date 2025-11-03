@@ -4,6 +4,7 @@ scoreboard players operation attack_damage_p system = attack_damage system
 #scoreboard players operation attack_damage_p system -= 100 const
 scoreboard players operation attack_damage_p system /= 3 const
 execute store result storage mk:enchantment attack_damage float 0.01 run scoreboard players get attack_damage system
+data modify storage mk:enchantment attack_damage_t set string storage mk:enchantment attack_damage -0 -1
 execute store result storage mk:enchantment attack_damage_p int 1 run scoreboard players get attack_damage_p system
 
 item modify entity @s weapon.mainhand mk:lore_add/attack_damage

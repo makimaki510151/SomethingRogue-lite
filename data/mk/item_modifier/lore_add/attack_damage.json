@@ -11,8 +11,21 @@
           "italic": false
         },
         {
-          "text": "：",
+          "text": "：+",
           "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "storage": "mk:enchantment",
+          "nbt": "attack_damage_t",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " (",
           "color": "white",
           "italic": false
         },
@@ -25,7 +38,7 @@
           "italic": false
         },
         {
-          "text": "%",
+          "text": "%)",
           "type": "text",
           "color": "white",
           "italic": false

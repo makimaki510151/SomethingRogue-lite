@@ -5,14 +5,27 @@
     "lore": [
       [
         {
-          "text": "重力",
+          "text": "クリティカル率",
           "type": "text",
-          "color": "dark_red",
+          "color": "yellow",
           "italic": false
         },
         {
-          "text": "：",
+          "text": "：+",
           "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "storage": "mk:enchantment",
+          "nbt": "fall_damage_multiplier_t",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " (",
           "color": "white",
           "italic": false
         },
@@ -25,7 +38,7 @@
           "italic": false
         },
         {
-          "text": "%",
+          "text": "%)",
           "type": "text",
           "color": "white",
           "italic": false
