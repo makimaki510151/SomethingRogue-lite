@@ -11,8 +11,8 @@ execute positioned 141.5 -33.0 118.5 run function mk:debug/summon/stage/2/mining
 execute positioned 130.5 -30.0 106.5 run function mk:debug/summon/stage/2/mining1
 execute positioned 142.5 -30.0 107.5 run function mk:debug/summon/stage/2/mining1
 
-execute positioned 128.5 -24.0 105.5 run function mk:debug/summon/stage/2/mining2
-execute positioned 144.5 -25.0 110.5 run function mk:debug/summon/stage/2/mining2
+execute positioned 129.5 -23.0 103.5 run function mk:debug/summon/stage/2/mining2
+execute positioned 144.5 -26.0 112.5 run function mk:debug/summon/stage/2/mining2
 execute positioned 125.5 -23.0 115.5 run function mk:debug/summon/stage/2/mining2
 execute positioned 139.5 -27.0 121.5 run function mk:debug/summon/stage/2/mining2
 
