@@ -5,6 +5,7 @@ gamemode adventure @s
 scoreboard players set @s mk 200
 spawnpoint @s 26 -45 -73 180 0
 tp @s 26.5 -45 -72.5 180 0
+summon firework_rocket 26.5 -45 -72.5 {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;16731392,16711680,16777215],fade_colors:[I;16774912]}]}}}}
 
 
 attribute @s attack_speed base set 1

@@ -1,7 +1,12 @@
 execute unless data entity @s SelectedItem.components."minecraft:custom_data"{"item_type":"box"} run return run tellraw @s [{text:"メインハンドに封箱を持ってください"}]
 
+
 execute store result score temp1 system run data get entity @s SelectedItem.components."minecraft:custom_data".open 1
 execute unless score @s mk >= temp1 system run return run tellraw @s [{text:"mkが足りません"}]
+
+#初期進捗達成用
+execute if score @s mk <= temp1 system if entity @s[advancements={mk:main/other/identify=false}] run advancement grant @s only mk:main/other/identify
+
 
 scoreboard players operation @s mk -= temp1 system
 
