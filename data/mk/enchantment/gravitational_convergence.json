@@ -1,5 +1,17 @@
 {
-  "description": "重力収束",
+  "description": [
+    {
+      "sprite": "minecraft:item/iron_sword",
+      "object": "atlas",
+      "type": "object"
+    },
+    {
+      "text": "重力収束",
+      "type": "text",
+      "color": "aqua",
+      "italic": false
+    }
+  ],
   "supported_items": "#mk:all_weapon",
   "weight": 1,
   "max_level": 1,
