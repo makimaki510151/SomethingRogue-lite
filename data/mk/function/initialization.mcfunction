@@ -2,6 +2,8 @@ scoreboard players add end_value player_id 1
 scoreboard players operation @s player_id = end_value player_id
 gamemode adventure @s
 
+clear @s
+
 scoreboard players set @s mk 200
 spawnpoint @s 26 -45 -73 180 0
 tp @s 26.5 -45 -72.5 180 0
@@ -10,6 +12,8 @@ summon firework_rocket 26.5 -45 -72.5 {LifeTime:20,FireworksItem:{id:"minecraft:
 
 attribute @s attack_speed base set 1
 attribute @s attack_damage base set 0
+attribute @s fall_damage_multiplier base set 1
+attribute @s minecraft:safe_fall_distance base set 2
 
 loot give @s loot mk:item/others/bread
 loot give @s loot mk:item/others/bread

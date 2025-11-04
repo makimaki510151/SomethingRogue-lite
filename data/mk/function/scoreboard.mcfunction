@@ -14,6 +14,7 @@ scoreboard players set 150 const 150
 scoreboard players set 200 const 200
 scoreboard players set 300 const 300
 scoreboard players set 700 const 700
+scoreboard players set 1000 const 1000
 
 
 scoreboard objectives add trigger trigger
@@ -28,3 +29,5 @@ scoreboard objectives add enemy_count dummy
 
 scoreboard objectives add mining dummy
 scoreboard objectives add mining_count dummy
+
+scoreboard objectives add next_damage_rate_1000 dummy
