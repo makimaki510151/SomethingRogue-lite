@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "重力収束の結晶",
+                "type": "text",
+                "color": "white",
+                "italic": false
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "重力収束のエンチャントを付与できる結晶",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "結晶のエンチャントは1つ付けると他には付けられない",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "効果",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "攻撃毎に自身の重力を参照して、",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "最終ダメージを増加させる",
+                  "color": "white",
+                  "italic": false
+                },
+                "",
+                [
+                  {
+                    "text": "売値：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "20mk",
+                    "type": "text",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "付与可能：武器",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "mk": 20,
+                "item_type": "only_enchantment",
+                "enchantment_type": "weapon",
+                "enchantment_id": "gravitational_convergence"
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}
