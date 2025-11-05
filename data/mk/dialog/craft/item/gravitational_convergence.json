@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "購入画面",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:amethyst_shard"
+      },
+      "show_decorations": true,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "重力収束のエンチャントを付与できる結晶\n結晶のエンチャントは1つ付けると\n他には付けられない"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "効果\n",
+          "type": "text",
+          "color": "white"
+        },
+        {
+          "text": "重力攻撃毎に自身の重力を参照して、\n",
+          "type": "text",
+          "color": "white"
+        },
+        {
+          "text": "最終ダメージを増加させる",
+          "type": "text",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "素材\n"
+        },
+        {
+          "text": "希少金属の破片×10",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "制作する",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger trigger set 209"
+    }
+  },
+  "no": {
+    "label": "制作リストに戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "mk:craft/top"
+    }
+  }
+}

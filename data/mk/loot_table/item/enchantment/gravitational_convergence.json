@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:amethyst_shard",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -59,7 +59,7 @@
                     "italic": false
                   },
                   {
-                    "text": "20mk",
+                    "text": "500mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -75,7 +75,7 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "mk": 20,
+                "mk": 500,
                 "item_type": "only_enchantment",
                 "enchantment_type": "weapon",
                 "enchantment_id": "gravitational_convergence"

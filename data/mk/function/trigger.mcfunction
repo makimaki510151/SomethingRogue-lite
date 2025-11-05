@@ -11,6 +11,7 @@ execute if score @s trigger matches 205 run function mk:craft/item/fall_damage_m
 execute if score @s trigger matches 206 run function mk:craft/item/gravity_0_0.1/material_check
 execute if score @s trigger matches 207 run function mk:craft/item/max_health_1_3/material_check
 execute if score @s trigger matches 208 run function mk:craft/item/healing_liquid/material_check
+execute if score @s trigger matches 209 run function mk:craft/item/gravitational_convergence/material_check
 
 
 execute if score @s trigger matches 1001 run function mk:tp/stage/1/stage_in

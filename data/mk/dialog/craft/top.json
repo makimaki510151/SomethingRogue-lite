@@ -90,6 +90,15 @@
         "type": "minecraft:show_dialog",
         "dialog": "mk:craft/item/healing_liquid"
       }
+    },
+    {
+      "label": {
+        "text": "重力収束の結晶"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:craft/item/gravitational_convergence"
+      }
     }
   ]
 }
