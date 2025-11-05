@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "death"
+    ]
+  ],
+  "rewards": {
+    "function": "mk:advancement/death/"
+  }
+}
