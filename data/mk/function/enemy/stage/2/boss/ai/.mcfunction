@@ -22,3 +22,6 @@ execute if score @s CT3 matches 1.. run scoreboard players remove @s CT3 1
 # 定期処理
 execute if score @s counter matches 13.. run function mk:enemy/stage/2/boss/ai/1.13tick
 execute if score @s counter_2 matches 20.. run function mk:enemy/stage/2/boss/ai/slash/1.slash
+
+execute if score @s[tag=moon_slash] counter_4 matches 1.. run function mk:enemy/stage/2/boss/ai/moon_slash/1
+execute if score @s[tag=rock_throw] counter_4 matches 1.. run function mk:enemy/stage/2/boss/ai/rock_throw/1

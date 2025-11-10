@@ -1,6 +1,6 @@
 # [ImportKey]: NobwRALgngDgpmAXGANgSwHYIDRgK55oAmSYAnAGwCGAZgBw0DGFAtHYwCxUscUBM3AEYc4NFnDIBmIjTJNGkihzC4MVALYJkgWjlAW74qwMKgCcNAZyThGAezwYISAIwBWXDWPX1lsADcqKPC1wAA8kFgAGADpHPlcwKDDHAF8k3Ahrbz8AoLBQxAjo2NwExGTUsGsaGjM4B0Rw3EE4AC80OGMnSKKwNDMAIRa24wBRAEc8fxQoAGUjRjgSRBp-GpTscGh4UnQsAwJiUkEFOCoicKIeKjJGHklGcLZOIT5HSQkiIkZGMgB2AzVNKRAKGK+lwRlM6gsiCstnsTgaYHcnky-kC3jyBRicRKBR+zjWkAy0N8qJyGKiWOKSCieIJlWqtWpjUG7WpkTxuF6A1a7TGExQU1mVHmi2WKFWqQ2sC0qEwOHwhEWYCOMjONFYzmcfDoPCIZEELDIHEkHBYFBogkEkioLjogho8oBMsAaJqgwwmczeGx2Op8BFIrzErJo4nkrrYxLhgnpFHZdFhKLdEqOKPlek1OoIpo8jqIPic-oskbjSYzOYLJBiiUAXSAA_3
 # 線 1
-execute positioned ~ ~-1 ~ run tag @a[distance=..2] add hit
+execute positioned ~ ~-1 ~ run tag @a[distance=..3] add hit
 
 particle dust{color:[0.651,0.651,0.651],scale:1} ^-0.125 ^ ^-1 0 0 0 0 1
 particle dust{color:[0.651,0.651,0.651],scale:1} ^0.04082 ^ ^-0.85714 0 0 0 0 1
