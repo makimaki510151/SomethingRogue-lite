@@ -32,7 +32,10 @@ scoreboard objectives add mining_count dummy
 
 scoreboard objectives add next_damage_rate_1000 dummy
 
-
+    scoreboard objectives add CT dummy
+    scoreboard objectives add CT1 dummy
+    scoreboard objectives add CT2 dummy
+    scoreboard objectives add CT3 dummy
 
     scoreboard objectives add tmp dummy
     scoreboard objectives add counter dummy
