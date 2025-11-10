@@ -1,7 +1,8 @@
+tp @s ~ ~ ~ facing entity @p
 tp @s ~ ~ ~ ~ 0
 
 scoreboard players set @s counter_2 1
-scoreboard players set @s CT1 160
+scoreboard players set @s CT1 140
 
 data merge entity @s {NoAI:1b}
 attribute @s minecraft:movement_speed base set 0

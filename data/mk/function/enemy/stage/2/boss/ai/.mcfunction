@@ -5,6 +5,8 @@
 #counter = 行動スコア
 #counter_1 = 行動カウント
 #counter_2 = 斬撃待機
+#counter_3 = 特殊行動乱数 1=岩投げ 2=円月斬り
+#counter_4 = 特殊行動中
 
 #CT = 共通CT
 #CT1 = 斬撃CT
