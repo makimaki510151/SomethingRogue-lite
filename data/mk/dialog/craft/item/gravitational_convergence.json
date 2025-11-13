@@ -23,7 +23,7 @@
           "color": "white"
         },
         {
-          "text": "重力攻撃毎に自身の重力を参照して、\n",
+          "text": "攻撃毎に自身の重力を参照して、\n",
           "type": "text",
           "color": "white"
         },

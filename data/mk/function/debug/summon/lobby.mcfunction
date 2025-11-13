@@ -6,7 +6,7 @@ summon minecraft:interaction 35.5 -45 -78.5 {Tags:["lobby","sell","look"]}
 summon minecraft:interaction 31.5 -46 -78.5 {Tags:["lobby","sell","main"]}
 summon minecraft:interaction 35.5 -45 -76.5 {Tags:["lobby","open","main"]}
 summon minecraft:interaction 17.5 -45 -67.5 {Tags:["lobby","enchantment","main"]}
-summon minecraft:interaction 17.5 -45 -65.5 {Tags:["lobby","enchantment","special"]}
+#summon minecraft:interaction 17.5 -45 -65.5 {Tags:["lobby","enchantment","special"]}
 
 
 kill @e[type=text_display,tag=lobby]
@@ -17,4 +17,4 @@ summon minecraft:text_display 35.0 -44.625 -78.5 {Tags:["lobby","sell","look","t
 summon minecraft:text_display 31.5 -44.500 -78.5 {Tags:["lobby","sell","main","text"],alignment: "center", background: 1073741824, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {extra: [{sprite: "minecraft:item/emerald"}], text: "即時売却"}}
 summon minecraft:text_display 35.0 -44.625 -76.5 {Tags:["lobby","open","main"],alignment: "center", background: 1073741824, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: "封箱開封", transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1,1,1], translation: [0.0f, 0.0f, 0.0f]}}
 summon minecraft:text_display 18.0 -44.625 -67.5 {Tags:["lobby","enchantment","main","text"],alignment: "center", background: 1073741824, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: "効果付与", transformation: {left_rotation: [0.0f, 0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1,1,1], translation: [0.0f, 0.0f, 0.0f]}}
-summon minecraft:text_display 18.0 -44.625 -65.5 {Tags:["lobby","enchantment","special","text"],alignment: "center", background: 1073741824, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: "エンチャント付与", transformation: {left_rotation: [0.0f, 0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1,1,1], translation: [0.0f, 0.0f, 0.0f]}}
+#summon minecraft:text_display 18.0 -44.625 -65.5 {Tags:["lobby","enchantment","special","text"],alignment: "center", background: 1073741824, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: "エンチャント付与", transformation: {left_rotation: [0.0f, 0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1,1,1], translation: [0.0f, 0.0f, 0.0f]}}
