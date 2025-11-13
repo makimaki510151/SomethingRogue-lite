@@ -1,5 +1,3 @@
-say 岩投げ
-
 playsound entity.ender_dragon.growl master @a ~ ~ ~ 2 2
 particle minecraft:lava ~ ~1 ~ 0 0.5 0 0 20
 

@@ -1,5 +1,3 @@
-say 円月斬り
-
 tp @s ~ ~ ~ facing entity @p
 tp @s ~ ~ ~ ~180 0
 
