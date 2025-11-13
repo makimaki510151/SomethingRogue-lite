@@ -80,6 +80,9 @@
                       ]
                     }
                   ]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 0.1
                 }
               }
             },
