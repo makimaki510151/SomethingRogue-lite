@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 64,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "追い風",
+                "type": "text",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "時間をかけ使うと足が速くなる",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "死ぬとなくなる",
+                  "type": "text",
+                  "color": "white",
+                  "italic": false
+                },
+                "",
+                [
+                  {
+                    "text": "売値：",
+                    "type": "text",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "1mk",
+                    "type": "text",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "animation": "bow",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:speed",
+                          "amplifier": 5,
+                          "duration": -1,
+                          "ambient": false,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "item_type": "effect_food",
+                "mk": 1,
+                "effect_food_id": 3
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

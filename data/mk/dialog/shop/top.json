@@ -36,6 +36,15 @@
         "type": "minecraft:show_dialog",
         "dialog": "mk:shop/item/bread"
       }
+    },
+    {
+      "label": {
+        "text": "追い風×8"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mk:shop/item/speed_food"
+      }
     }
   ]
 }

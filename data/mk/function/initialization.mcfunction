@@ -18,6 +18,7 @@ attribute @s minecraft:safe_fall_distance base set 2
 loot give @s loot mk:item/others/bread
 loot give @s loot mk:item/others/bread
 
+loot give @s loot mk:item/effect_food/speed_food
 
 scoreboard players set attack_damage system 200
 scoreboard players operation attack_damage_p system = attack_damage system
