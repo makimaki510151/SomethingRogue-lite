@@ -12,7 +12,7 @@
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "text": "ボアの毛皮",
+                                "text": "ミニボアの毛皮",
                                 "type": "text",
                                 "color": "white",
                                 "italic":false
