@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "重力収束の結晶",
+                "text": "踏み込みの結晶",
                 "type": "text",
                 "color": "white",
                 "italic": false
@@ -24,7 +24,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "重力収束のエンチャントを付与できる結晶",
+                  "text": "踏み込みのエンチャントを付与できる結晶",
                   "type": "text",
                   "color": "white",
                   "italic": false
@@ -42,12 +42,12 @@
                   "italic": false
                 },
                 {
-                  "text": "攻撃毎に自身の重力を参照して、",
+                  "text": "クリティカル発生時にスニークをしていると、",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "text": "最終ダメージを増加させる",
+                  "text": "クリティカル倍率が２倍になる。",
                   "color": "white",
                   "italic": false
                 },

@@ -129,9 +129,9 @@
                                 ],
                                 [
                                     {
-                                        "text": "重力",
+                                        "text": "クリティカル倍率",
                                         "type": "text",
-                                        "color": "light_purple",
+                                        "color": "yellow",
                                         "italic": false
                                     },
                                     {
@@ -142,7 +142,7 @@
                                     },
                                     {
                                         "storage": "mk:item",
-                                        "nbt": "gravity_t",
+                                        "nbt": "safe_fall_distance_t",
                                         "source": "storage",
                                         "type": "nbt",
                                         "color": "white",
@@ -154,7 +154,7 @@
                                         "italic": false
                                     },
                                     {
-                                        "nbt": "gravity_p",
+                                        "nbt": "safe_fall_distance_p",
                                         "storage": "mk:item",
                                         "source": "storage",
                                         "type": "nbt",
@@ -177,7 +177,7 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "100mk",
+                                        "text": "10mk",
                                         "type": "text",
                                         "color": "gold",
                                         "italic": false
@@ -212,12 +212,12 @@
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "minecraft:gravity",
+                                    "attribute": "minecraft:safe_fall_distance",
                                     "id": "minecraft:",
                                     "amount": {
                                         "type": "minecraft:storage",
                                         "storage": "mk:item",
-                                        "path": "gravity"
+                                        "path": "safe_fall_distance"
                                     },
                                     "operation": "add_value",
                                     "slot": "mainhand"
@@ -228,12 +228,12 @@
                             "function": "minecraft:set_custom_data",
                             "tag": {
                                 "item_type": "weapon",
-                                "mk": 100,
+                                "mk": 10,
                                 "enchantment": {
                                     "contents_list": {
                                         "attack_damage": true,
                                         "attack_speed": true,
-                                        "gravity": true,
+                                        "safe_fall_distance": true,
                                         "entity_interaction_range": false,
                                         "fall_damage_multiplier": false,
                                         "sneaking_speed": false

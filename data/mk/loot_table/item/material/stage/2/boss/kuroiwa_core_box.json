@@ -59,7 +59,7 @@
                     "italic": false
                   },
                   {
-                    "text": "400mk",
+                    "text": "50mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -73,7 +73,7 @@
                 "mk": 100,
                 "item_type": "box",
                 "box_id": "stage_2_boss_1",
-                "open": 400
+                "open": 50
               }
             }
           ]

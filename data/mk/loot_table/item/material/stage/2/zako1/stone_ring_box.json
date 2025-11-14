@@ -44,7 +44,7 @@
                     "italic": false
                   },
                   {
-                    "text": "10mk",
+                    "text": "5mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -59,7 +59,7 @@
                     "italic": false
                   },
                   {
-                    "text": "60mk",
+                    "text": "20mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -70,10 +70,10 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "mk": 10,
+                "mk": 5,
                 "item_type": "box",
                 "box_id": "stage_2_zako1_1",
-                "open": 60
+                "open": 20
               }
             }
           ]

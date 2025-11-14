@@ -44,7 +44,7 @@
                     "italic": false
                   },
                   {
-                    "text": "50mk",
+                    "text": "25mk",
                     "type": "text",
                     "color": "gold"
                   }
@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "mk": 50,
+                "mk": 25,
                 "material_id": "stage_2_boss_1",
                 "item_type": "material"
               }

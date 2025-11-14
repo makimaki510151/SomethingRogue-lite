@@ -18,13 +18,13 @@ execute store result storage mk:item temp1 float 0.01 run scoreboard players get
 data modify storage mk:item attack_speed_t set string storage mk:item temp1 -0 -1
 execute store result storage mk:item attack_speed_p int 1 run scoreboard players get attack_speed_p system
 
-execute store result score gravity system run random value 0..100
-scoreboard players operation gravity_p system = gravity system
-#scoreboard players operation gravity_p system -= 100 const
-#scoreboard players operation gravity_p system /= 2 const
-execute store result storage mk:item gravity float 0.001 run scoreboard players get gravity system
-execute store result storage mk:item temp1 float 0.1 run scoreboard players get gravity system
-data modify storage mk:item gravity_t set string storage mk:item temp1 -0 -1
-execute store result storage mk:item gravity_p int 1 run scoreboard players get gravity_p system
+execute store result score safe_fall_distance system run random value 0..200
+scoreboard players operation safe_fall_distance_p system = safe_fall_distance system
+#scoreboard players operation safe_fall_distance_p system -= 100 const
+scoreboard players operation safe_fall_distance_p system /= 2 const
+execute store result storage mk:item safe_fall_distance float 0.001 run scoreboard players get safe_fall_distance system
+execute store result storage mk:item temp1 float 0.1 run scoreboard players get safe_fall_distance system
+data modify storage mk:item safe_fall_distance_t set string storage mk:item temp1 -0 -1
+execute store result storage mk:item safe_fall_distance_p int 1 run scoreboard players get safe_fall_distance_p system
 
 loot give @s loot mk:item/weapon/kuroiwa_core

@@ -13,12 +13,11 @@ execute if score temp2 system <= temp3 system on attacker store result score tem
 execute if score temp2 system <= temp3 system at @s run particle minecraft:crit ~ ~1 ~ 0.1 0.1 0.1 1 50 normal
 execute if score temp2 system <= temp3 system at @s run playsound minecraft:block.anvil.place master @a ~ ~ ~ 1 2
 
+execute if score @s is_gravitational_convergence matches 1 run scoreboard players operation temp1 system *= 2 const
+scoreboard players reset @s is_gravitational_convergence
+
 scoreboard players operation damage system *= temp1 system
 scoreboard players operation damage system /= 100 const
-
-scoreboard players operation damage system *= @s next_damage_rate_1000
-scoreboard players set @s next_damage_rate_1000 1000
-scoreboard players operation damage system /= 1000 const
 
 scoreboard players operation @s now_hp -= damage system
 

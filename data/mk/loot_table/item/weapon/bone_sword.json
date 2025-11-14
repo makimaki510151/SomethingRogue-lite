@@ -136,7 +136,7 @@
                     "italic": false
                   },
                   {
-                    "text": "50mk",
+                    "text": "10mk",
                     "type": "text",
                     "color": "gold",
                     "italic": false
@@ -176,7 +176,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "item_type": "weapon",
-                "mk": 50,
+                "mk": 10,
                 "enchantment": {
                   "contents_list": {
                     "attack_damage": true,

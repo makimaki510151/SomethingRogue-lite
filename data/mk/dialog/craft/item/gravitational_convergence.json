@@ -12,7 +12,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "重力収束のエンチャントを付与できる結晶\n結晶のエンチャントは1つ付けると\n他には付けられない"
+      "contents": "踏み込みのエンチャントを付与できる結晶\n結晶のエンチャントは1つ付けると\n他には付けられない"
     },
     {
       "type": "minecraft:plain_message",
@@ -23,12 +23,12 @@
           "color": "white"
         },
         {
-          "text": "攻撃毎に自身の重力を参照して、\n",
+          "text": "クリティカル発生時にスニークをしていると、\n",
           "type": "text",
           "color": "white"
         },
         {
-          "text": "最終ダメージを増加させる",
+          "text": "クリティカル倍率が２倍になる。",
           "type": "text",
           "color": "white"
         }

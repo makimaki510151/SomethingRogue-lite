@@ -44,7 +44,7 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "70mk",
+                                        "text": "75mk",
                                         "type": "text",
                                         "color": "gold"
                                     }
@@ -59,7 +59,7 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "200mk",
+                                        "text": "50mk",
                                         "type": "text",
                                         "color": "gold"
                                     }
@@ -70,10 +70,10 @@
                         {
                             "function": "minecraft:set_custom_data",
                             "tag": {
-                                "mk": 70,
+                                "mk": 75,
                                 "item_type": "box",
                                 "box_id": "stage_1_boss_1",
-                                "open": 200
+                                "open": 50
                             }
                         }
                     ]

@@ -93,7 +93,7 @@
     },
     {
       "label": {
-        "text": "重力収束の結晶"
+        "text": "踏み込みの結晶"
       },
       "action": {
         "type": "minecraft:show_dialog",
