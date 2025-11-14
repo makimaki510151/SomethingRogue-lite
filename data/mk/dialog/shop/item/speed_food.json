@@ -5,7 +5,7 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:bread"
+        "id": "minecraft:green_dye"
       },
       "show_decorations": true,
       "show_tooltip": false

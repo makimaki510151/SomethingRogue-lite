@@ -39,7 +39,7 @@
     },
     {
       "label": {
-        "text": "追い風×8"
+        "text": "追い風×64"
       },
       "action": {
         "type": "minecraft:show_dialog",
