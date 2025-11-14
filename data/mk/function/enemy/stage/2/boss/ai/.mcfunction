@@ -1,6 +1,3 @@
-#execute on target if entity @a run return run tellraw @a [{text:"タゲ切れ"}]
-#execute on target run tellraw @a [{selector:"@s"}]
-
 #スコア系
 #counter = 行動スコア
 #counter_1 = 行動カウント
