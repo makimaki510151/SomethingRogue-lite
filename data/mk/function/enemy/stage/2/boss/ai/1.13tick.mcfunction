@@ -7,6 +7,7 @@ scoreboard players add @s counter_1 1
 
 #自動回復
 scoreboard players add @s[scores={now_hp=..7480}] now_hp 100
+execute if score @s now_hp > @s max_hp run scoreboard players operation @s now_hp = @s max_hp
 
 # リセット
     scoreboard players set @s counter 0
