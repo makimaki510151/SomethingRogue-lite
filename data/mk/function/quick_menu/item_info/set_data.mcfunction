@@ -1,2 +1,3 @@
 data modify storage playertick: ticking_player set from entity @s
-execute if data storage playertick: ticking_player.SelectedItem run function mk:quick_menu/item_info/tellraw.m with storage playertick: ticking_player.SelectedItem
+execute if data storage playertick: ticking_player.SelectedItem.components.minecraft:custom_name run function mk:quick_menu/item_info/tellraw.cn with storage playertick: ticking_player.SelectedItem
+execute if data storage playertick: ticking_player.SelectedItem.components.minecraft:item_name run function mk:quick_menu/item_info/tellraw.in with storage playertick: ticking_player.SelectedItem
