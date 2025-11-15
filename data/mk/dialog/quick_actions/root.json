@@ -18,7 +18,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "/say a"
+        "command": "/trigger trigger set 501"
       }
     }
   ]

@@ -1,0 +1,2 @@
+data modify storage playertick: ticking_player set from entity @s
+execute if data storage playertick: ticking_player.SelectedItem run function mk:quick_menu/item_info/tellraw.m with storage playertick: ticking_player.SelectedItem
