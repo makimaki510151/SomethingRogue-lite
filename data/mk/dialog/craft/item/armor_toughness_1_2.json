@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "購入画面",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book"
+      },
+      "show_decorations": true,
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "防御強度のエンチャント\nランクはかなり低い"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "能力幅\n",
+          "type": "text",
+          "color": "white"
+        },
+        {
+          "text": "防具強度",
+          "type": "text",
+          "color": "green"
+        },
+        {
+          "text": "："
+        },
+        {
+          "text": "1～2",
+          "type": "text",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "素材\n"
+        },
+        {
+          "text": "砕けた岩×45"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "制作する",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger trigger set 206"
+    }
+  },
+  "no": {
+    "label": "制作リストに戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "mk:craft/top"
+    }
+  }
+}

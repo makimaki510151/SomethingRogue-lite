@@ -1,0 +1,80 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "防具強度",
+          "type": "text",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "：+",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "storage": "mk:enchantment",
+          "nbt": "armor_toughness_t",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " (",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "armor_toughness_p",
+          "storage": "mk:enchantment",
+          "source": "storage",
+          "type": "nbt",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "%)",
+          "type": "text",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "mode": "insert",
+    "offset": 5,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "enchantment": {
+        "contents_list": {
+          "armor_toughness": true
+        }
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:armor_toughness",
+        "id": "minecraft:",
+        "amount": {
+          "type": "minecraft:storage",
+          "storage": "mk:enchantment",
+          "path": "armor_toughness"
+        },
+        "operation": "add_value",
+        "slot": "offhand"
+      }
+    ],
+    "replace": false
+  }
+]

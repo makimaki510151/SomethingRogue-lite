@@ -57,11 +57,11 @@
     },
     {
       "label": {
-        "text": "ダル重の書・入門編"
+        "text": "頑丈の書・入門編"
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "mk:craft/item/gravity_0_0.1"
+        "dialog": "mk:craft/item/armor_toughness_1_2"
       }
     },
     {
