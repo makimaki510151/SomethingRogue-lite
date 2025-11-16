@@ -1,7 +1,7 @@
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmHKQAykBsARgOwCGAtAMwoMAcbALCw58AnA2pMBKJsLgBGOhxZz+YAgDsWAWwTJAYYoACOWrAwWGbQGck4FAHtC6iEgBM1AijhO4GG2ABuLNiEuuAAHkjuYFCRAL6xBBakaITWiACs1FnZUZYQ5s6IUXDY2GgwlrpyWYl2+RC6UWiWAKKl5ZUtAI6EQdhQAMpmnuSIEBgh8QC6QA_3
 # 円 1
 
-execute positioned ~ ~-1 ~ run tag @a[distance=..12] add hit
+execute positioned ~ ~-1 ~ run tag @a[distance=..8] add hit
 execute as @a[tag=hit] run damage @s 13 minecraft:boss_attack by @n[tag=blackstone_man]
 tag @a[tag=hit] remove hit
 
