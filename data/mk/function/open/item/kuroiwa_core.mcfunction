@@ -23,7 +23,7 @@ scoreboard players operation safe_fall_distance_p system = safe_fall_distance sy
 #scoreboard players operation safe_fall_distance_p system -= 100 const
 scoreboard players operation safe_fall_distance_p system /= 2 const
 execute store result storage mk:item safe_fall_distance float 0.001 run scoreboard players get safe_fall_distance system
-execute store result storage mk:item temp1 float 0.1 run scoreboard players get safe_fall_distance system
+execute store result storage mk:item temp1 float 0.01 run scoreboard players get safe_fall_distance system
 data modify storage mk:item safe_fall_distance_t set string storage mk:item temp1 -0 -1
 execute store result storage mk:item safe_fall_distance_p int 1 run scoreboard players get safe_fall_distance_p system
 
