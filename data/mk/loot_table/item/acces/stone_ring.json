@@ -48,7 +48,7 @@
                                 },
                                 [
                                     {
-                                        "text": "防御値",
+                                        "text": "防具値",
                                         "type": "text",
                                         "color": "green",
                                         "italic": false
