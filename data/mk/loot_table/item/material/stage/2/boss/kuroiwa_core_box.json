@@ -75,6 +75,12 @@
                 "box_id": "stage_2_boss_1",
                 "open": 50
               }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:chest_box_2"
+              }
             }
           ]
         }

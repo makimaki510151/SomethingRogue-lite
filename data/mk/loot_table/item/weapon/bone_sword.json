@@ -193,6 +193,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "minecraft:bone_sword",
                 "minecraft:tooltip_display": {
                   "hide_tooltip": false,
                   "hidden_components": [

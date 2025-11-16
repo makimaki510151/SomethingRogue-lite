@@ -75,6 +75,12 @@
                 "box_id": "stage_2_zako1_1",
                 "open": 20
               }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:chest_box_2"
+              }
             }
           ]
         }
