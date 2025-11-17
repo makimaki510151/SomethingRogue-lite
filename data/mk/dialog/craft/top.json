@@ -21,7 +21,12 @@
   "actions": [
     {
       "label": {
-        "text": "守りの書・入門編"
+        "text": "守りの書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/accessory"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
@@ -30,7 +35,12 @@
     },
     {
       "label": {
-        "text": "腕伸ばしの書・入門編"
+        "text": "腕伸ばしの書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/weapon"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
@@ -39,7 +49,12 @@
     },
     {
       "label": {
-        "text": "攻撃的な書・入門編"
+        "text": "攻撃的な書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/accessory"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
@@ -48,7 +63,12 @@
     },
     {
       "label": {
-        "text": "叩き付けの書・入門編"
+        "text": "叩き付けの書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/weapon"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
@@ -57,7 +77,12 @@
     },
     {
       "label": {
-        "text": "頑丈の書・入門編"
+        "text": "頑丈の書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/accessory"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
@@ -66,7 +91,12 @@
     },
     {
       "label": {
-        "text": "元気もりもりの書・入門編"
+        "text": "元気もりもりの書・入門編",
+        "extra": [
+          {
+            "sprite": "minecraft:item/icon/accessory"
+          }
+        ]
       },
       "action": {
         "type": "minecraft:show_dialog",
